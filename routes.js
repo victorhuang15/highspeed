@@ -1,8 +1,11 @@
 var express = require('express');
 var profileController = require('./controller/profile');
 var userController = require ('./controller/user');
-
+var loginController =require('./controller/login');
 var router = express.Router();
+
+//login
+router.route('/login').post(loginController.authenticate);
 
 //profile router
 router.route('/profile/:id').get(profileController.getProfile);
