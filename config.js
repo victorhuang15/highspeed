@@ -1,4 +1,4 @@
 module.exports = {
-    'database' : '',
+    'db' : 'mysql://user:pass@localhost:3306/highspeed',
     'secret' : 'highspeed'
 }
