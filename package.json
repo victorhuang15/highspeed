@@ -1,0 +1,26 @@
+{
+  "name": "highspeed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenkaiser/highspeed.git"
+  },
+  "keywords": [
+    "highspeed"
+  ],
+  "author": "atlit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenkaiser/highspeed/issues"
+  },
+  "homepage": "https://github.com/chenkaiser/highspeed#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}
