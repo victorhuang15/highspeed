@@ -1,7 +1,7 @@
 var express = require('express');
-var profileController = require('./controller/profile');
-var userController = require ('./controller/user');
-var loginController =require('./controller/login');
+var profileController = require('./controller/profileController');
+var userController = require ('./controller/userController');
+var loginController =require('./controller/loginController');
 var router = express.Router();
 
 //login
