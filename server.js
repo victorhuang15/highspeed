@@ -4,12 +4,13 @@ var path = require("path");
 var app = express();
 var morgan = require('morgan');
 var config = require('./config');
+var passport = require('passport');
 
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
-app.use('/ui',express.static(path.join(__dirname,'/ui')));
+app.use('/public',express.static(path.join(__dirname,'/public')));
 app.use(morgan('dev'));
 app.set('mysecret', config.secret);
 
